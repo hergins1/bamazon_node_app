@@ -70,7 +70,7 @@ function userOrder() {
           )
           updateProduct();
         });
-        readProducts();
+        // readProducts();
         connection.end();
     })
     })

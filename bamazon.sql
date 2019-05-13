@@ -13,7 +13,6 @@ CREATE TABLE products (
     , PRIMARY KEY (item_id)
 );
 
--- Insert rows into table 'products'
 INSERT INTO products(product_name, department_name, price, stock_quantity)
 
 VALUES
@@ -35,5 +34,5 @@ VALUES
 ),
 ("laptop", "Electronics", 150.55, 5
 ),
-("candels", "Home Decor ", 1.25, .85
+("candles", "Home Decor ", 1.25, .85
 );
